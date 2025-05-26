@@ -1,4 +1,4 @@
-# On-Chain-Art-Collective-DAO
+
 🏛️ BadgeBoard-DAO
 BadgeBoard-DAO is an on-chain governance prototype designed for small communities and subDAOs. It runs on the Core Testnet and uses a 5-of-9 multisig council for decentralized proposal approval and execution.
 
