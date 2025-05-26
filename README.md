@@ -6,7 +6,7 @@ BadgeBoard-DAO is an on-chain governance prototype designed for small communitie
 🔍 Overview
 Network: Core Testnet
 
-DAO Contract: 0xd9145CCE52D386f254917e481eB44e9943F39138
+DAO Contract: 0xbf8c46d929a1d65bb6859c3b73b07f72f2be42df
 
 Balance: 5.0001 tCORE
 
