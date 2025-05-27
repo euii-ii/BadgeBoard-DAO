@@ -18,7 +18,7 @@ BadgeBoard-DAO is a community-driven platform that enables the creation, distrib
 ## Smart Contract Details
 
 - **Network**: CORE Blockchain
-- **Contract Address**: `0x9145CCE52D386f254917e481eB44e9943F39138`
+- **Contract Address**: `0x72a0e4c0d9b075be1cc4e944b954614e420d746b`
 - **Token Standard**: ERC-20 compatible
 - **Current Balance**: 5.0001 tCORE
 
@@ -56,7 +56,7 @@ cp .env.example .env
 ```javascript
 // config.js
 export const CONTRACT_CONFIG = {
-  address: "0x9145CCE52D386f254917e481eB44e9943F39138",
+  address: "0x72a0e4c0d9b075be1cc4e944b954614e420d746b",
   network: "CORE",
   chainId: 1116
 };
