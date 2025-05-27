@@ -196,7 +196,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 BadgeBoard-DAO is experimental software. Use at your own risk. Always do your own research before participating in any DAO or blockchain-based project.
 
----
 
-**Built with ❤️ by the BadgeBoard-DAO Community**
 
