@@ -62,6 +62,8 @@ export const CONTRACT_CONFIG = {
 };
 ```
 <p align="center"><img src="https://res.cloudinary.com/dporz9gz6/image/upload/v1748318041/Screenshot_22_uig7ro.png" alt="project-image"></p>
+
+
 ## DAO Governance
 
 ### Voting Process
