@@ -1,73 +1,8 @@
+<h1 align="center" id="title">BadgeBoard-DAO</h1>
 
-#🏛️ BadgeBoard-DAO
+<p align="center"><img src="https://res.cloudinary.com/dporz9gz6/image/upload/v1748318041/Screenshot_22_uig7ro.png" alt="project-image"></p>
 
-BadgeBoard-DAO is an on-chain governance prototype designed for small communities and subDAOs. It runs on the Core Testnet and uses a 5-of-9 multisig council for decentralized proposal approval and execution.
-
-🔍 Overview
-Network: Core Testnet
-
-DAO Contract: 0xbf8c46d929a1d65bb6859c3b73b07f72f2be42df
-
-Balance: 5.0001 tCORE
-
-Explorer: View on CoreScan
-
-⚙️ Features
-Component	Description
-🧑‍⚖️ CouncilDAO	Multisig DAO with 5-of-9 approval system
-🔐 Member Rotation	Council can vote to replace members
-📜 Proposal Logic	Submit arbitrary encoded function calls
-🔐 Secure Voting	Only whitelisted council members can vote
-⛓️ On-chain Execution	Automatically executed when 5 approvals are met
-
-🧪 Testnet Deployment
-Core Chain: Core Testnet Faucet
-
-Gas Token: tCORE
-
-Contract deployed using Remix IDE
-
-Uses constructor input:
-
-solidity
-Copy
-Edit
-[
-  "0x1111...", "0x2222...", ..., "0x9999..." // total 9 members
-]
-📂 Contract File
-CouncilDAO.sol:
-
-Solidity ^0.8.0
-
-Fully compatible with Remix IDE
-
-No external dependencies (uses native Solidity logic)
-
-📦 Example Usage
-✅ Council member submits proposal:
-
-Example: transfer funds, call another contract
-
-🗳️ Members approve the proposal (must reach 5)
-
-🤖 Once approved, it's automatically executed
-
-🔒 Security Notes
-Avoid reusing council member addresses on mainnet
-
-Ensure encoded data is validated off-chain before submitting
-
-Always test on testnet before migrating to mainnet
-
-🛠️ Future Upgrades
-UI frontend for interacting with proposals
-
-Modular plugins (e.g. Badge NFTs, Role-gating, Snapshot voting)
-
+<p id="description">BadgeBoard-DAO is an on-chain governance prototype designed for small communities and subDAOs. It runs on the Core Testnet and uses a 5-of-9 multisig council for decentralized proposal approval and execution. 🔍 Overview Network: Core Testnet DAO Contract: 0xd9145CCE52D386f254917e481eB44e9943F39138 Balance: 5.0001 tCORE Explorer: View on CoreScan ⚙️ Features Component Description 🧑‍⚖️ CouncilDAO Multisig DAO with 5-of-9 approval system 🔐 Member Rotation Council can vote to replace members 📜 Proposal Logic Submit arbitrary encoded function calls 🔐 Secure Voting Only whitelisted council members can vote ⛓️ On-chain Execution Automatically executed when 5 approvals are met 🧪 Testnet Deployment Core Chain: Core Testnet Faucet Gas Token: tCORE Contract deployed using Remix IDE Uses constructor input: solidity Copy Edit [ "0x1111..." "0x2222..." ... "0x9999..." // total 9 members ] 📂 Contract File CouncilDAO.sol: Solidity ^0.8.0 Fully compatible with Remix IDE No external dependencies (uses native Solidity logic) 📦 Example Usage ✅ Council member submits proposal: Example: transfer funds call another contract 🗳️ Members approve the proposal (must reach 5) 🤖 Once approved it's automatically executed 🔒 Security Notes Avoid reusing council member addresses on mainnet Ensure encoded data is validated off-chain before submitting Always test on testnet before migrating to mainnet 🛠️ Future Upgrades UI frontend for interacting with proposals Modular plugins (e.g. Badge NFTs Role-gating Snapshot voting) Chainlink automation for auto-execution 🤝 Credits Built using Core Chain Testnet Developed and tested on Remix IDE</p>
 Chainlink automation for auto-execution
 
-🤝 Credits
-Built using Core Chain Testnet
 
-Developed and tested on Remix IDE
